@@ -23,10 +23,10 @@ The Archives Theme draws inspiration from:
 
 ## 📸 Screenshots
 
-<div style="text-align: center;">
+<p align="center">
   <img src="https://github.com/user-attachments/assets/6c208a21-c1a6-43fa-8349-6cb717d95981" alt="Screenshot 1" />
-</div>
+</p>
 
-<div style="text-align: center;">
+<p align="center">
   <img src="https://github.com/user-attachments/assets/1060ae60-dfc8-4ecd-90cb-ebace0f34ff0" alt="Screenshot 2" />
-</div>
+</p>
