@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Archives Theme</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600;700&family=Geist+Mono:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body>
+    <main class="mx-auto min-h-screen max-w-2xl place-content-center px-4">
+      <div
+        class="overflow-hidden rounded-lg border-2 border-slate-300 bg-white sm:w-3xl"
+      >
+        <!-- Header -->
+        <header
+          class="border-b-2 border-slate-300 bg-slate-100 px-4 py-4 sm:py-6"
+        >
+          <div
+            class="flex flex-col space-y-3 sm:flex-row sm:items-center sm:justify-between sm:space-y-0"
+          >
+            <div
+              class="flex items-baseline space-x-2 font-mono text-lg text-slate-900"
+            >
+              <!-- Metrics/Vitals Icon -->
+              <svg class="h-4 w-4" fill="currentColor" viewBox="0 0 24 24">
+                <path
+                  d="M18.375 2.25c-1.035 0-1.875.84-1.875 1.875v15.75c0 1.035.84 1.875 1.875 1.875h.75c1.035 0 1.875-.84 1.875-1.875V4.125c0-1.036-.84-1.875-1.875-1.875h-.75zM9.75 8.625c0-1.036.84-1.875 1.875-1.875h.75c1.036 0 1.875.84 1.875 1.875v11.25c0 1.035-.84 1.875-1.875 1.875h-.75c-1.036 0-1.875-.84-1.875-1.875V8.625zM3 13.125c0-1.036.84-1.875 1.875-1.875h.75c1.036 0 1.875.84 1.875 1.875v6.75c0 1.035-.84 1.875-1.875 1.875h-.75C3.84 21.75 3 20.91 3 19.875v-6.75z"
+                />
+              </svg>
+              <h1 class="font-semibold leading-tight">
+                HIGH-ACTIVITY REGISTRY RECORDS
+              </h1>
+            </div>
+            <div
+              class="flex items-center justify-start space-x-2 sm:justify-end"
+            >
+              <mark
+                class="rounded bg-red-100 px-2 py-1 font-mono text-xs text-red-800"
+                >4 ACTIVE</mark
+              >
+              <div
+                class="h-2 w-2 rounded-full bg-green-500"
+                aria-label="Active indicator"
+              ></div>
+            </div>
+          </div>
+        </header>
+
+        <!-- Content -->
+        <section class="divide-y-2 divide-slate-200">
+          <!-- Record #1 -->
+          <article class="record bg-red-25 p-4 hover:bg-slate-50">
+            <div class="space-y-6">
+              <!-- Title Row -->
+              <header
+                class="flex flex-col space-y-4 sm:flex-row sm:justify-between sm:space-y-0"
+              >
+                <div class="flex-1 space-y-3">
+                  <div
+                    class="flex flex-wrap items-center gap-2 font-mono text-xs font-semibold"
+                  >
+                    <span class="rounded-xl bg-slate-700 px-3 py-1 text-white"
+                      >#1 NOR-2024-004</span
+                    >
+                    <mark class="rounded-xl bg-red-200 px-3 py-1 text-red-800"
+                      >CRITICAL ACTIVITY</mark
+                    >
+                    <mark
+                      class="rounded-xl bg-orange-300 px-3 py-1 text-orange-800"
+                      >HIGH ACTIVITY</mark
+                    >
+                    <mark
+                      class="rounded-xl bg-green-200 px-3 py-1 text-green-800"
+                      >PUBLIC</mark
+                    >
+                  </div>
+                  <div class="space-y-1">
+                    <h2
+                      class="font-mono text-base sm:text-lg font-bold text-slate-900 leading-tight"
+                    >
+                      Athletic Performance Historical Analysis
+                    </h2>
+                    <p class="font-mono text-xs sm:text-sm text-slate-600">
+                      Sports achievement comparative evaluation registry
+                    </p>
+                  </div>
+                </div>
+                <div class="text-center sm:text-right font-mono">
+                  <div class="text-2xl font-bold text-green-700">+23%</div>
+                  <div class="text-xs text-slate-600">GROWTH RATE</div>
+                </div>
+              </header>
+
+              <!-- Metrics Row -->
+              <dl
+                class="grid grid-cols-2 sm:grid-cols-5 gap-3 sm:gap-4 text-center font-mono text-sm"
+              >
+                <div>
+                  <dt class="font-bold text-slate-900">67,234</dt>
+                  <dd class="text-xs text-slate-600">TOTAL ENTRIES</dd>
+                </div>
+                <div>
+                  <dt class="font-bold text-green-600">+445</dt>
+                  <dd class="text-xs text-slate-600">TODAY</dd>
+                </div>
+                <div>
+                  <dt class="font-bold text-orange-600">23/HR</dt>
+                  <dd class="text-xs text-slate-600">CURRENT RATE</dd>
+                </div>
+                <div>
+                  <dt class="font-bold text-slate-900">38%</dt>
+                  <dd class="text-xs text-slate-600">LEADING</dd>
+                </div>
+                <div class="col-span-2 sm:col-span-1">
+                  <dt class="font-bold text-slate-900">
+                    <time datetime="2024-01-01T14:20:15">14:20:15</time>
+                  </dt>
+                  <dd class="text-xs text-slate-600">LAST UPDATE</dd>
+                </div>
+              </dl>
+
+              <!-- Leading Response -->
+              <div class="space-y-2">
+                <div
+                  class="flex items-center justify-between font-mono text-sm"
+                >
+                  <span class="text-slate-600">LEADING RESPONSE:</span>
+                  <span class="font-bold text-slate-900">"Michael Jordan"</span>
+                </div>
+                <div
+                  class="h-2 w-full rounded bg-slate-200"
+                  value="38"
+                  max="100"
+                  aria-label="Leading response progress"
+                >
+                  <div
+                    class="h-2 rounded bg-slate-800"
+                    style="width: 38%"
+                  ></div>
+                </div>
+              </div>
+
+              <!-- Footer Actions -->
+              <footer
+                class="flex flex-col space-y-3 sm:flex-row sm:items-center sm:justify-between sm:space-y-0"
+              >
+                <div
+                  class="font-mono text-xs text-slate-600 text-center sm:text-left"
+                >
+                  CATEGORY: Sports &amp; Recreation | PARTICIPANTS: 23,456
+                </div>
+                <nav class="flex flex-col sm:flex-row sm:justify-end gap-2">
+                  <button
+                    class="rounded w-full sm:w-auto bg-slate-700 px-3 py-2 font-mono text-xs text-white hover:bg-slate-800 text-center"
+                  >
+                    [ACS] ACCESS RECORD
+                  </button>
+                  <button
+                    class="rounded w-full sm:w-auto border border-slate-300 px-3 py-2 font-mono text-xs hover:bg-slate-50 text-center"
+                  >
+                    [MNT] MONITOR
+                  </button>
+                </nav>
+              </footer>
+            </div>
+          </article>
+          <!-- /Record #1 -->
+        </section>
+      </div>
+    </main>
+  </body>
+</html>
